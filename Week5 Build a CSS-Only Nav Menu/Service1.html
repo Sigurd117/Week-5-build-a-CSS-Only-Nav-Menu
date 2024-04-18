@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekken over the years</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+     {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+    font-family: Arial, sans-serif;
+        margin: 0;
+    }
+
+    header {
+    background-color: #333333;
+    color: thistle;
+    padding: 10px;
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+    text-align: Center;
+    }
+
+    nav ul {
+    list-style: none;
+    display: flex;
+    }
+
+    nav ul li {
+    position: relative;
+    }
+
+    nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+    }
+
+    nav ul li:hover > a {
+    background-color: #f4f4f4;
+    }
+
+    .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .dropdown:hover .dropdown-menu {
+    display: block;
+    }
+
+    .dropdown-menu li {
+    display: block;
+    }
+
+    .dropdown-menu li a {
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    }
+
+    .dropdown-menu li a:hover {
+    background-color: #f4f4f4;
+    }
+
+    .main-content {
+    flex: 3;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+        text-align: center;
+    }
+
+    .container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tekken over the years video.</h1>
+</header>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="Nav%20Menu.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+                <a href="#">Services</a>
+                <ul class="dropdown-menu">
+                    <li><a href="Service1.html">Service 1</a></li>
+                    <li><a href="service2.html">Service 2</a></li>
+                    <li><a href="service3.html">Service 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="main-content">
+    <h2>Check this clip out!</h2>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P8rJzfi3ZwM?si=5gt7tkKw3cbGeb91" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
